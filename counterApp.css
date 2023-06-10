@@ -1,0 +1,32 @@
+.App{
+    background: #ffffff;
+    max-width: 400px;
+    min-width: 300px;
+    border-radius: 8px;
+    background: #232323;
+    min-height: 80vh;
+    padding: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+h2{
+    font-size: 198px;
+    font-weight: 780;
+    color: #ffffff
+}
+
+.center{
+    text-align: center;
+    align-content: center;
+}
+
+button{
+
+}

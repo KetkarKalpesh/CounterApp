@@ -1,0 +1,16 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <div class="App">
+        <h1>Counter App</h1>
+        <div class="center">
+            <h2>{counter}</h2>
+            <h3>{time}</h3>
+            <lightning-button label="Add" class="slds-badge_inverse slds-var-m-right_x-small" onclick={handleIncrement} variant="success"></lightning-button>
+            <lightning-button label="Remove" onclick={handleDecrement} variant="destructive"></lightning-button>
+            <!-- sldsValidatorIgnoreNextLine -->
+            <!-- sldsValidatorIgnoreNextLine -->
+            <!-- sldsValidatorIgnoreNextLine -->
+            <lightning-button-icon onclick={handleReset} icon-name="utility:delete" alternative-text="Delete"   variant="brand" class="slds-var-m-around_x-small" title="Delete"></lightning-button-icon>
+        </div>
+    </div>
+</template>
