@@ -2,7 +2,6 @@ import { LightningElement } from 'lwc';
 
 export default class CounterApp extends LightningElement {
     counter = 0
-    time = Date()
 
     handleIncrement(){
         this.counter = this.counter + 1
